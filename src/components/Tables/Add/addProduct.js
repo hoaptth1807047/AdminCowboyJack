@@ -98,6 +98,7 @@ class ProductFormBase extends Component {
       this.setState({ ...INITIAL_STATE });
       console.log(category);
       alert("Added successfully!");
+      window.location.reload();
     }).catch((err) => {
       console.log(err);
     });
