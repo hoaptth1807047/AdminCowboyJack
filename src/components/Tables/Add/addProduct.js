@@ -98,7 +98,6 @@ class ProductFormBase extends Component {
       this.setState({ ...INITIAL_STATE });
       console.log(category);
       alert("Added successfully!");
-      this.props.history.push(ROUTES.HOME);
     }).catch((err) => {
       console.log(err);
     });
